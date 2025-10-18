@@ -6,8 +6,8 @@ const urlsToCache = [
     '/styles.css',
     '/app.js',
     // Agrega los archivos que necesites cachear puedes agregar tus iconos
-    '/icon-192.png',
-    '/icon-512.png'
+    'icons/icon-192.png',
+    'icons/icon-512.png'
 ];
 self.addEventListener('install', (event) => {
     event.waitUntil(
